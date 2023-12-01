@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Product from "../product/Product";
+import Product from "../Product/Product"
 import "./Products.css";
 import {getdatafromlocalstorage} from '../../Utils/Utils'
 
