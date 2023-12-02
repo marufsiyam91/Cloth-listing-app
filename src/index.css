@@ -9,6 +9,7 @@ body{
   width: 100%;
   height: 100vh;
   font-family: 'Montserrat', sans-serif;
-  background: rgb(235, 244, 255);
+  /* background: rgb(235, 244, 255); */
+  background: rgb(222, 244, 255);
 }
 
