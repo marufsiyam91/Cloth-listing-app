@@ -33,6 +33,11 @@ const Products = () => {
       return acc;
     }, []);
 
+    if(typeof parseFloat(inputValues.clothName) === 'number'){
+      alert(`invalid clothName`)
+      return
+    }
+
     if (compareTo.includes(inputValues.clothId)) {
       return alert("You have to provide unique cloth Id Number");
     }
