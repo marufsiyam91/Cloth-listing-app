@@ -33,7 +33,7 @@ const Products = () => {
       return acc;
     }, []);
 
-    if(typeof parseFloat(inputValues.clothName) === 'number'){
+    if(!isNaN(parseFloat(inputValues.clothName))){
       alert(`invalid clothName`)
       return
     }
